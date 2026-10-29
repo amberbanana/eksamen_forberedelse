@@ -9,7 +9,7 @@ const DeleteModal: React.FC<any> = ({show, data, onClose}) => {
     const okRefElement = useRef<HTMLDivElement>(null)
     const [isShown, setIsShown] = useState<boolean>(true)
 
-    const isDeleted = ()=>{
+    const isDeleted = (name: string)=>{
         setIsShown(false)
         setTimeout(()=>{
             router.refresh()
@@ -34,7 +34,7 @@ const DeleteModal: React.FC<any> = ({show, data, onClose}) => {
 
     return(
         <>
-            delete modal here
+            
         </>
     )
 }
