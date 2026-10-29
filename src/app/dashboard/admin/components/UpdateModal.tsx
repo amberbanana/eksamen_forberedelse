@@ -1,7 +1,7 @@
 import { createPortal } from "react-dom"
 import UpdateData from "./UpdateData"
 
-// const UpdateModal: React.FC<modal props here> = ({show, onClose})=>{
+// const UpdateModal: React.FC<modal props here> = ({id, show, onClose})=>{
 //     if(!show) return null;
 
 //     return(
@@ -10,7 +10,7 @@ import UpdateData from "./UpdateData"
 //             <>
 //                 <div className="fixed z-30 w-full top-0 bg-black opacity-70" onClick={onClose}></div>
 //                 <div className="fixed z-40 p-10 bg-white text-black rounded-md">
-//                     <PostData />
+//                     <UpdateData id={id}/>
 //                 </div>
 //             </>, document.body
 //         )}
